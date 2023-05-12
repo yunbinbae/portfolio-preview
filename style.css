@@ -1,0 +1,72 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+
+.absolute {
+  position: absolute;
+}
+
+.text-white {
+  color: white;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#container {
+  text-align: center;
+}
+
+#yunbinBae {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+#HumanizeTech {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+
+#viewWorkBtn {
+  border: 0;
+  outline: 0;
+}
+
+#viewWorkBtn {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+#viewWorkBtn:link,
+#viewWorkBtn:visited {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.08s ease-in;
+  padding: 1.4rem 1.8rem;
+  border: 0.1em solid #000000;
+  background-color: #FFFFFF;
+}
+
+#viewWorkBtn:hover,
+.button-link:active {
+  text-decoration: none;
+  background-color: #F161FE;
+  font-weight: 500;
+}
